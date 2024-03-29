@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 ################################################################################
-cd src/main/java
+cd hutool-json/src/main/java
 
-javac org/json/*.java
+javac cn/hutool/json/*.java
 jar cf $OUT/json-java.jar org/json/*.class
 
 ALL_JARS="json-java.jar"
