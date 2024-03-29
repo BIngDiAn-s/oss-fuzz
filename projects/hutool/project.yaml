@@ -1,0 +1,10 @@
+homepage: "https://github.com/dromara/hutool"
+language: jvm
+primary_contact: "jsonjava060@gmail.com"
+main_repo: "https://github.com/dromara/hutool"
+auto_ccs:
+  - "david@adalogics.com"
+fuzzing_engines:
+  - libfuzzer
+sanitizers:
+  - address
