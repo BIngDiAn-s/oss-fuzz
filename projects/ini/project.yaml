@@ -1,1 +1,10 @@
-
+homepage: "https://github.com/facebookarchive/ini4j"
+language: jvm
+primary_contact: "jsonjava0s60@gmail.com"
+main_repo: "https://github.com/facebookarchive/ini4j"
+auto_ccs:
+  - "david@adalogics.com"
+fuzzing_engines:
+  - libfuzzer
+sanitizers:
+  - address
